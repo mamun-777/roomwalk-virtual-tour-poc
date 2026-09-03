@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run samples:download && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "samples:download": "node scripts/download-samples.mjs"

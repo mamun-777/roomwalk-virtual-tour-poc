@@ -8,11 +8,13 @@ Assignment brief: [`docs/assignment-brief.txt`](docs/assignment-brief.txt)
 
 ```bash
 npm install
-npm run samples:download   # large .splat files are gitignored
+npm run samples:download   # large .splat files are gitignored (also runs automatically on `npm run build` / Vercel)
 npm run dev
 ```
 
 Open the URL Vite prints (usually `http://localhost:5173`).
+
+On Vercel, keep Framework Preset as **Vite**. The build downloads sample splats into `public/` before packaging, so tours work in production.
 
 ## What you can try
 
