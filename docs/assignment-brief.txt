@@ -1,0 +1,4 @@
+Summary
+I’m looking for a developer to build a simple proof-of-concept that lets a user upload an iPhone walkthrough video of a property, converts it into an interactive 3D/Gaussian-splat style virtual tour using existing APIs or open-source tools, and displays it in a web browser. The goal is to test whether the workflow can work simply and affordably, not to build the underlying AI model from scratch.
+
+In future versions I would look to create photos of each room from the video, as well as a floor plan of the property.
