@@ -34,3 +34,4 @@ Desktop.ini
 # Large sample Gaussian splats (npm run samples:download)
 public/samples/splats/*.splat
 public/samples/splats/*.spz
+*.mp4
